@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Validation</title>
+    <link rel="stylesheet" href="main css.css">
+    <style>
+        .error-message, #secret-message {
+            display: none;
+            color: red;
+        }
+        #secret-message {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>User Input Validation</h1>
+    </header>
+    <nav>
+        <a href="index.html">Back to Home</a>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>User Information Form</h2>
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name">
+                <p id="first-name-error" class="error-message"></p>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name">
+                <p id="last-name-error" class="error-message"></p>
+            </div>
+            <div class="form-group">
+                <label for="zip-code">Zip Code</label>
+                <input type="text" id="zip-code">
+                <p id="zip-code-error" class="error-message"></p>
+            </div>
+            <button id="submit-button">Submit</button>
+            <p id="secret-message">Congratulations! You have entered valid information.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Ozzy James<br>
+        University of Advancing Technology<br>
+        2625 W Baseline Rd<br>
+        Tempe, AZ 85283</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

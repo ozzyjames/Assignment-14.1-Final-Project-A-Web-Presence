@@ -1,0 +1,76 @@
+/* Set global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0581ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the main container */
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Style the heading */
+h1 {
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+}
+
+/* Style the input field */
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style the result paragraph */
+#result {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Style the palindrome image */
+#palindromeImage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+/* Style the stats paragraph */
+#stats {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #666;
+}
